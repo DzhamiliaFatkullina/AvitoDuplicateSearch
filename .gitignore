@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Notebook checkpoints and temp files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (never commit raw/processed data!)
+data/raw/
+data/processed/
+data/external/
+
+
+# Training outputs and logs
+models/
+outputs/
+logs/
+mlruns/
+wandb/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Submission files (track only final submissions)
+submissions/*.csv
+!submissions/final_*.csv
+
+# Exception: Keep small config files
+!data/raw/README.md
+!data/processed/README.md
