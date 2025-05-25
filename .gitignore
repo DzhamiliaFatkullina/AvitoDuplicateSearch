@@ -41,4 +41,4 @@ submissions/*.csv
 # Exception: Keep small config files
 !data/raw/README.md
 !data/processed/README.md
-data/train_part_0001.snappy.parquet
+data/*.snappy.parquet
