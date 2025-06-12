@@ -1,6 +1,4 @@
 # Обнаружение дубликатов объявлений на Avito
- 
-[![Сертификат участника](path/to/your/certificate.png)](path/to/your/certificate.png)
 
 ## Описание проекта
 
